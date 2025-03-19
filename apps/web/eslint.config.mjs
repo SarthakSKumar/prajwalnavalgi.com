@@ -6,18 +6,8 @@ export default tszhong0411(
     tsconfigRootDir: import.meta.dirname,
     react: true,
     next: true,
-    playwright: true,
-    testingLibrary: true
   },
   {
     files: [GLOB_E2E],
-    rules: {
-      'playwright/expect-expect': [
-        'error',
-        {
-          assertFunctionNames: ['checkStoredTheme', 'checkAppliedTheme', 'a11y']
-        }
-      ]
-    }
   }
 )

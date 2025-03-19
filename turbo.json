@@ -85,15 +85,6 @@
     },
     "lint": {},
     "lint:fix": {},
-    "test:e2e": {
-      "outputs": ["playwright-report/**", "test-results/**"]
-    },
-    "test:e2e:inspector": {
-      "outputs": ["playwright-report/**", "test-results/**"]
-    },
-    "test:e2e:ui": {
-      "outputs": ["playwright-report/**", "test-results/**"]
-    },
     "type-check": {}
   },
   "ui": "stream"
